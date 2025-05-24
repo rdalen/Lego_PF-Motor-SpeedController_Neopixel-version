@@ -7,3 +7,6 @@ This design is based on an Arduino ProMini (or clone) and has a DRV8833 Motor dr
 
 For the controller hardware both the Arduino ProMini and the LGT8F328P LQFP32 MiniEVB (Pro Mini Style) can be used or even the LGT8F328P SSOP20 MiniEVB (pseudo Pro Mini Style).  
 ![Image](https://github.com/user-attachments/assets/92f046ee-78c8-42a8-b996-337eff9ab6af)
+
+The PCB design  
+![Image](https://github.com/user-attachments/assets/7c215320-499c-41ac-976d-e5720ad172ec)  
