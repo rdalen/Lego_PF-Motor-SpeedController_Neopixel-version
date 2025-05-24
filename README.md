@@ -5,4 +5,5 @@ Earlier I made [this version](https://github.com/rdalen/Lego_PF-Motor-SpeedContr
 This design is based on an Arduino ProMini (or clone) and has a DRV8833 Motor driver module, a Rotary encoder and a 16LED Neopixel Ring as forward/reverse speedindicator  
 ![Image](https://github.com/user-attachments/assets/53ff555d-a833-40cc-8e04-70d34815b413)
 
-For the controller hardware A Arduine ProMini, a LGT8F328P LQFP32 MiniEVB (Pro Mini Style) or a  LGT8F328P SSOP20 MiniEVB (pseudo Pro Mini Style) can be taken
+For the controller hardware both the Arduino ProMini and the LGT8F328P LQFP32 MiniEVB (Pro Mini Style) can be used or even the LGT8F328P SSOP20 MiniEVB (pseudo Pro Mini Style).  
+![Image](https://github.com/user-attachments/assets/92f046ee-78c8-42a8-b996-337eff9ab6af)
