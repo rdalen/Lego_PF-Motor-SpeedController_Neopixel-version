@@ -17,5 +17,9 @@ I ordered the pcb's at JLCPCB
 
 And this is what it looks like when assembled
 ![Image](https://github.com/user-attachments/assets/a1ad2bc3-2896-4e92-b623-1acb0c6bc26c)
+See [here](https://youtube.com/shorts/omxZtgw-2hw) how it works.  
 
-See [here](https://youtube.com/shorts/omxZtgw-2hw) how it works  
+On AliExpress you can also buy the PF connector and wire to make a DIY Lego PF connection cable.  
+When assembling the PF cable, remove the C1 and C2 contacts from the Bottom part of the connector
+so that only 1 connector is required to connect both the battery box and the motor
+![Image](https://github.com/user-attachments/assets/0d40d8c7-a8f0-4172-9ac3-674145432b49)
