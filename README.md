@@ -9,6 +9,7 @@ For the controller hardware both the Arduino ProMini and the LGT8F328P LQFP32 Mi
 ![Image](https://github.com/user-attachments/assets/92f046ee-78c8-42a8-b996-337eff9ab6af)
 
 The PCB design  
+the pcb takes into account the footprint of the different controllers. 
 ![Image](https://github.com/user-attachments/assets/7c215320-499c-41ac-976d-e5720ad172ec)  
 
 In the end, I ordered the pcb's from JLCPCB
