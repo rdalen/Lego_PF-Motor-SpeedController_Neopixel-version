@@ -15,7 +15,7 @@ The pcb design takes into account the footprint of the different MCU modules, ho
 I ordered the pcb's at JLCPCB
 ![Image](https://github.com/user-attachments/assets/d91549f5-1c7f-4ae1-9b96-8a0b97472900)
 
-After assembling  
+And this is what it looks like when assembled
 ![Image](https://github.com/user-attachments/assets/a1ad2bc3-2896-4e92-b623-1acb0c6bc26c)
 
 See [here](https://youtube.com/shorts/omxZtgw-2hw) how it works  
