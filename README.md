@@ -9,7 +9,7 @@ For the MCU hardware both the Arduino ProMini and the [LGT8F328P LQFP32 MiniEVB]
 ![Image](https://github.com/user-attachments/assets/92f046ee-78c8-42a8-b996-337eff9ab6af)
 
 ### The PCB
-The pcb design takes into account the footprint of the different MCU's, however only 1 of the controllers needs to be placed.  
+The pcb design takes into account the footprint of the different MCU modules, however only 1 of the MCU modules needs to be placed.  
 ![Image](https://github.com/user-attachments/assets/7c215320-499c-41ac-976d-e5720ad172ec)  
 
 In the end, I ordered the pcb's from JLCPCB
