@@ -8,7 +8,7 @@ This [design](/docs/Lego%20PF%20Motor%20speed%20controller%20with%20Neopixel%20-
 For the controller hardware both the Arduino ProMini and the LGT8F328P LQFP32 MiniEVB (Pro Mini Style) can be used or even the LGT8F328P SSOP20 MiniEVB (pseudo Pro Mini Style).  
 ![Image](https://github.com/user-attachments/assets/92f046ee-78c8-42a8-b996-337eff9ab6af)
 
-###The PCB design  
+### The PCB design  
 the pcb takes into account the footprint of the different controllers. 
 ![Image](https://github.com/user-attachments/assets/7c215320-499c-41ac-976d-e5720ad172ec)  
 
