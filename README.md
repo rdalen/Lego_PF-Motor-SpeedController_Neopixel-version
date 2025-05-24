@@ -16,3 +16,5 @@ In the end, I ordered the pcb's from JLCPCB
 
 After assembling  
 ![Image](https://github.com/user-attachments/assets/a1ad2bc3-2896-4e92-b623-1acb0c6bc26c)
+
+See [here](https://youtube.com/shorts/omxZtgw-2hw) how it works  
