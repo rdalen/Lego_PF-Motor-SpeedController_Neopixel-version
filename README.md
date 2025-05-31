@@ -18,7 +18,8 @@ I ordered the pcb's at JLCPCB
 And this is what it looks like when assembled
 ![Image](https://github.com/user-attachments/assets/a1ad2bc3-2896-4e92-b623-1acb0c6bc26c)
 See [here](https://youtube.com/shorts/omxZtgw-2hw) how it works.  
-
+The PCB 1.0 has this issue #1
+___
 The Lego Speed Controller can be powered by the Lego Battery Box or by an external 9Vdc power adapter.   
 
 On AliExpress you can buy the PF connector and wire to make a DIY Lego PF connection cable to the Lego Batter Box.  
