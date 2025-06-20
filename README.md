@@ -6,7 +6,7 @@ This [design](/docs/Lego%20PF%20Motor%20speed%20controller%20with%20Neopixel%20-
 ![Image](https://github.com/user-attachments/assets/53ff555d-a833-40cc-8e04-70d34815b413)
 
 For the MCU modules both the Arduino ProMini and the [LGT8F328P LQFP32 MiniEVB](https://wolles-elektronikkiste.de/en/minievb-boards-an-overview) (Pro Mini Style) can be used or even the [LGT8F328P SSOP20 MiniEVB](https://wolles-elektronikkiste.de/en/minievb-boards-an-overview) (pseudo Pro Mini Style).  
-![Image](https://github.com/user-attachments/assets/b9f2a474-9ba3-4036-979b-1e2a9cf11dc9)
+![Image](https://github.com/user-attachments/assets/0f129618-70d6-4ebd-975c-3ff58fa520ff)
 
 ### The PCB (v1.0)
 The pcb design takes into account the footprint of the different MCU modules, however only 1 of the MCU modules needs to be placed.  
