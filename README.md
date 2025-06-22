@@ -24,7 +24,7 @@ This is fixed in [v1.1](https://github.com/rdalen/Lego_PF-Motor-SpeedController_
 ___
 The Lego Speed Controller can be powered by the Lego Battery Box or by an external 9Vdc power adapter.   
 
-On AliExpress you can buy the PF connector and wire to make a DIY Lego PF connection cable to the Lego Batter Box.  
-When assembling this PF cable for the Battery Box, remove the C1 and C2 contacts from the Bottom part of the connector
-so that this connector can be used to connect both the battery box as the Lego PF-motor as well.  
+Before assembling the Input PF cable (connected to J11 in the schematic), removed first the C1 and C2 contacts from the Bottom part of the connector so that this connector can be used to connect both the battery box (via the 0V and 9V contacts in the BOTTOM part) as the Lego PF-motor as well (via the C1 and C2 contacts in the TOP part).  
+
+The output PF cable (connected to J13 in the schematic) is not modified (so has its all contacts)  
 ![Image](https://github.com/user-attachments/assets/0d40d8c7-a8f0-4172-9ac3-674145432b49)
