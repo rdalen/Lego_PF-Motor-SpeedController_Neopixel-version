@@ -35,7 +35,7 @@ The pcb design takes into account the footprint of the different MCU modules, ho
 The PCB 1.0 has this [issue #1](https://github.com/rdalen/Lego_PF-Motor-SpeedController_Neopixel-version/issues/1).  
 This is fixed in [v1.1](https://github.com/rdalen/Lego_PF-Motor-SpeedController_Neopixel-version/blob/main/src/KiCad9.0/Lego%20PF-Motor%20PWM%20Speedcontroller%20-%20Neopixel%20version-v1.1.zip)
 
-### DIY PF Cable
+### The DIY PF Cable
 On AliExpress you can buy PF connectors and 4 core wire and make your own Lego PF connection cables.
 Before assembling the Input PF cable (connected to J11 in the schematic), I removed the C1 and C2 contacts from the Bottom part of the connector so that this connector can be used to connect both the battery box (via the 0V and 9V contacts in the BOTTOM part) as the Lego PF-motor as well (via the C1 and C2 contacts in the TOP part).  
 ![Image](https://github.com/user-attachments/assets/0d40d8c7-a8f0-4172-9ac3-674145432b49)  
@@ -44,6 +44,26 @@ So the PF-motor can be connected or to the input connector (connected to the Bat
 
 See [this article](https://www.philohome.com/pf/pf.htm) about the working of de LEGO Power Function cable.
 
+### The Programming
+
+To upload the sketch from your computer into the Arduino board you will need a FTDI USB to TTL Adapter.  
+![Image](https://github.com/user-attachments/assets/b041cc7b-5861-4736-9400-6b8c63063f8f)
+
+Then;  
+1 - Install the following libraries:  
+- lgt8fx library (When you use a LGT8F328P MiniEVB Board)  
+- Neopixel library  
+- Rotary library  
+2 - Download the sketch (You can also download the the sketch from my github)  
+3 - Set the proper board settings (see picture for the LGT8F328P board settings) and upload the sketch
+
+For clarification;
+The Neopixel ring indicates the output signal (similar to the big yellow button on the conventional Lego train speed regulator).
+Turning the Rotary encoder knob to the right wll increase the speed in forward direction (Green color), turning to the left will decrease the speed to 0 (LED8 is the center of the indication scale) and then increases the speed in reverse direction (Red color).
+Neopixel LED0 is set to blue as power-on indication.
+When your Rotary encoder is equipped with a push button; a short button press will increase the brightness of the LEDs (in 9 steps) and a long button press (>2sec) will reset the brightness to the default 10% and set the speed to 0 (Stop).
+
+### The Result
 And this is what it looks like when assembled
 ![Image](https://github.com/user-attachments/assets/a1ad2bc3-2896-4e92-b623-1acb0c6bc26c)
 See [here](https://youtube.com/shorts/omxZtgw-2hw) how it works.  
@@ -51,6 +71,4 @@ See [here](https://youtube.com/shorts/omxZtgw-2hw) how it works.
 
 ___
 
-Before assembling the Input PF cable (connected to J11 in the schematic), removed first the C1 and C2 contacts from the Bottom part of the connector so that this connector can be used to connect both the battery box (via the 0V and 9V contacts in the BOTTOM part) as the Lego PF-motor as well (via the C1 and C2 contacts in the TOP part).  
-![Image](https://github.com/user-attachments/assets/0d40d8c7-a8f0-4172-9ac3-674145432b49)  
-The output PF cable (connected to J13 in the schematic) is not modified (so has all its contacts)  
+
