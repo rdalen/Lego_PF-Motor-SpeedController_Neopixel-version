@@ -7,11 +7,23 @@ The conventional train regulator gives a analog 0-9V output signal. In this desi
 
 Earlier I made [another version](https://github.com/rdalen/Lego_PF-Motor-SpeedController) of a Lego speed controller based on the well known NE555 timer-IC. 
 
+For the MCU modules both the Arduino ProMini and the [LGT8F328P LQFP32 MiniEVB](https://wolles-elektronikkiste.de/en/minievb-boards-an-overview) (Pro Mini Style) can be used or even the [LGT8F328P SSOP20 MiniEVB](https://wolles-elektronikkiste.de/en/minievb-boards-an-overview) (pseudo Pro Mini Style).  
+![Image](https://github.com/user-attachments/assets/0f129618-70d6-4ebd-975c-3ff58fa520ff)
+
+You can buy the LGT8F328P MiniEVB modules on AliExpress very cheap.  
+I used the 5V version, because not all types of Neopixels are compatible with 3V3.
+Furthermore, I use, among other things;
+A DRV8833 Motor driver module
+A Neopixel ring with 16 LEDs
+An EC11 Rotary encoder with push button
+![Image](https://github.com/user-attachments/assets/06701ed0-27e3-411e-9106-8a072cb2fcc8)
+
+
+
 This [design](/docs/Lego%20PF%20Motor%20speed%20controller%20with%20Neopixel%20-%20Schematic.pdf) is based on an Arduino ProMini (or clone) and has a DRV8833 Motor driver module, a Rotary encoder and a 16 LED Neopixel Ring as forward/reverse speedindicator  
 ![Image](https://github.com/user-attachments/assets/53ff555d-a833-40cc-8e04-70d34815b413)
 
-For the MCU modules both the Arduino ProMini and the [LGT8F328P LQFP32 MiniEVB](https://wolles-elektronikkiste.de/en/minievb-boards-an-overview) (Pro Mini Style) can be used or even the [LGT8F328P SSOP20 MiniEVB](https://wolles-elektronikkiste.de/en/minievb-boards-an-overview) (pseudo Pro Mini Style).  
-![Image](https://github.com/user-attachments/assets/0f129618-70d6-4ebd-975c-3ff58fa520ff)
+
 
 ### The PCB (v1.0)
 The pcb design takes into account the footprint of the different MCU modules, however only 1 of the MCU modules needs to be placed.  
