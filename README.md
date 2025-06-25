@@ -15,10 +15,13 @@ I used the 5V version, because not all types of Neopixels are compatible with 3V
 Furthermore, I use, among other things;  
 - A DRV8833 Motor driver module  
 - A Neopixel ring with 16 LEDs  
-- An EC11 Rotary encoder with push button  
+- An EC11 Rotary encoder with push button
+
 ![Image](https://github.com/user-attachments/assets/06701ed0-27e3-411e-9106-8a072cb2fcc8)
 
-This [design](/docs/Lego%20PF%20Motor%20speed%20controller%20with%20Neopixel%20-%20Schematic.pdf) is based on an Arduino ProMini (or clone) and has a DRV8833 Motor driver module, a Rotary encoder and a 16 LED Neopixel Ring as forward/reverse speedindicator  
+The [design](/docs/Lego%20PF%20Motor%20speed%20controller%20with%20Neopixel%20-%20Schematic.pdf) is made in KiCad 9.0 and is straight forward.  
+It can be powered by, for example, a 9V Lego battery box (8881) or by an external 9Vdc power adapter.  
+I first tested it in a breadboard setup.  
 ![Image](https://github.com/user-attachments/assets/53ff555d-a833-40cc-8e04-70d34815b413)
 
 
