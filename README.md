@@ -51,17 +51,17 @@ To upload the sketch from your computer into the Arduino board you will need a F
 
 Then;  
 1 - Install the following libraries:  
-- lgt8fx library (When you use a LGT8F328P MiniEVB Board)  
-- Neopixel library  
-- Rotary library  
+  - lgt8fx library (When you use a LGT8F328P MiniEVB Board)  
+  - Neopixel library  
+  - Rotary library
 2 - Download the sketch (You can also download the the sketch from my github)  
 3 - Set the proper board settings (see picture for the LGT8F328P board settings) and upload the sketch
 
 For clarification;
-The Neopixel ring indicates the output signal (similar to the big yellow button on the conventional Lego train speed regulator).
-Turning the Rotary encoder knob to the right wll increase the speed in forward direction (Green color), turning to the left will decrease the speed to 0 (LED8 is the center of the indication scale) and then increases the speed in reverse direction (Red color).
-Neopixel LED0 is set to blue as power-on indication.
-When your Rotary encoder is equipped with a push button; a short button press will increase the brightness of the LEDs (in 9 steps) and a long button press (>2sec) will reset the brightness to the default 10% and set the speed to 0 (Stop).
+- The Neopixel ring indicates the output signal (similar to the big yellow button on the conventional Lego train speed regulator).  
+- Turning the Rotary encoder knob to the right wll increase the speed in forward direction (Green color), turning to the left will decrease the speed to 0 (LED8 is the center of the indication scale) and then increases the speed in reverse direction (Red color).  
+- Neopixel LED0 is set to blue as power-on indication. 
+- When your Rotary encoder is equipped with a push button; a short button press will increase the brightness of the LEDs (in 9 steps) and a long button press (>2sec) will reset the brightness to the default 10% and set the speed to 0 (Stop).  
 
 ### The Result
 And this is what it looks like when assembled
