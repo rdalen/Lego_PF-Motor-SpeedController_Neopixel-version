@@ -54,7 +54,8 @@ Then;
   - [Neopixel library](https://github.com/adafruit/Adafruit_NeoPixel)
   - [Rotary library](https://github.com/buxtronix/arduino/tree/master/libraries/Rotary)
 - Download the sketch (You can also download the the sketch from my github)
-- Set the proper board settings (see picture for the LGT8F328P board settings) and upload the sketch  
+- Set the proper board settings (see picture for the LGT8F328P board settings) and upload the sketch
+![Image](https://github.com/user-attachments/assets/7802f008-d822-4ecf-a5ef-d61be0eacafd)
 ___
 For clarification;
 - The Neopixel ring indicates the output signal (similar to the big yellow button on the conventional Lego train speed regulator).  
