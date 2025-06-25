@@ -15,8 +15,7 @@ I used the 5V version, because not all types of Neopixels are compatible with 3V
 Furthermore, I use, among other things;  
 - A DRV8833 Motor driver module  
 - A Neopixel ring with 16 LEDs  
-- An EC11 Rotary encoder with push button
-
+- An EC11 Rotary encoder with push button  
 ![Image](https://github.com/user-attachments/assets/06701ed0-27e3-411e-9106-8a072cb2fcc8)
 
 ### The Design
@@ -53,7 +52,7 @@ Then;
 1 - Install the following libraries:  
   - lgt8fx library (When you use a LGT8F328P MiniEVB Board)  
   - Neopixel library  
-  - Rotary library
+  - Rotary library  
 2 - Download the sketch (You can also download the the sketch from my github)  
 3 - Set the proper board settings (see picture for the LGT8F328P board settings) and upload the sketch
 
