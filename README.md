@@ -19,19 +19,18 @@ Furthermore, I use, among other things;
 
 ![Image](https://github.com/user-attachments/assets/06701ed0-27e3-411e-9106-8a072cb2fcc8)
 
+### The Design
 The [design](/docs/Lego%20PF%20Motor%20speed%20controller%20with%20Neopixel%20-%20Schematic.pdf) is made in KiCad 9.0 and is straight forward.  
 It can be powered by, for example, a 9V Lego battery box (8881) or by an external 9Vdc power adapter.  
 I first tested it in a breadboard setup.  
 ![Image](https://github.com/user-attachments/assets/53ff555d-a833-40cc-8e04-70d34815b413)
 
-
-
 ### The PCB (v1.0)
+I designed a 76x100mm PCB, which I ordered from JLCPCB. 
+![Image](https://github.com/user-attachments/assets/d91549f5-1c7f-4ae1-9b96-8a0b97472900)
+
 The pcb design takes into account the footprint of the different MCU modules, however only 1 of the MCU modules needs to be placed.  
 ![Image](https://github.com/user-attachments/assets/7c215320-499c-41ac-976d-e5720ad172ec)  
-
-I ordered the pcb's at JLCPCB
-![Image](https://github.com/user-attachments/assets/d91549f5-1c7f-4ae1-9b96-8a0b97472900)
 
 And this is what it looks like when assembled
 ![Image](https://github.com/user-attachments/assets/a1ad2bc3-2896-4e92-b623-1acb0c6bc26c)
