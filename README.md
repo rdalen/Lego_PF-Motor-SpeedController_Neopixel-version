@@ -37,7 +37,7 @@ This is fixed in [v1.1](https://github.com/rdalen/Lego_PF-Motor-SpeedController_
 
 ### DIY PF Cable
 On AliExpress you can buy PF connectors and 4 core wire and make your own Lego PF connection cables.
-Before assembling the Input PF cable (connected to J11 in the schematic), I removed the C1 and C2 contacts from the Bottom part of the connector so that this connector can be used to connect both the battery box (via the 0V and 9V contacts in the BOTTOM part) as the Lego PF-motor as well (via the C1 and C2 contacts in the TOP part).
+Before assembling the Input PF cable (connected to J11 in the schematic), I removed the C1 and C2 contacts from the Bottom part of the connector so that this connector can be used to connect both the battery box (via the 0V and 9V contacts in the BOTTOM part) as the Lego PF-motor as well (via the C1 and C2 contacts in the TOP part).  
 ![Image](https://github.com/user-attachments/assets/0d40d8c7-a8f0-4172-9ac3-674145432b49)  
 The output PF cable (connected to J13 in the schematic) is not modified (so has all its contacts).
 So the PF-motor can be connected or to the input connector (connected to the Battery box) or to the output connector.
