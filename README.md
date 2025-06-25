@@ -70,8 +70,8 @@ And I have plans to make a lasercut console for it - an update follows when this
 
 ### The Result
 And this is what it looks like when assembled
-![Image](https://github.com/user-attachments/assets/a1ad2bc3-2896-4e92-b623-1acb0c6bc26c)
-See [here](https://youtube.com/shorts/p-FWXSREwLY) and [here](https://youtube.com/shorts/qJE7di6izpw) how it works.  
+![Image](https://github.com/user-attachments/assets/a1ad2bc3-2896-4e92-b623-1acb0c6bc26c)  
+See [here](https://youtube.com/shorts/p-FWXSREwLY) and [here](https://youtube.com/shorts/qJE7di6izpw) how it all works.  
 
 
 
