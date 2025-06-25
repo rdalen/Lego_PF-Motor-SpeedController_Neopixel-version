@@ -32,14 +32,23 @@ I designed a 76x100mm PCB, which I ordered from JLCPCB.
 The pcb design takes into account the footprint of the different MCU modules, however only 1 of the MCU modules needs to be placed.  
 ![Image](https://github.com/user-attachments/assets/7c215320-499c-41ac-976d-e5720ad172ec)  
 
+The PCB 1.0 has this [issue #1](https://github.com/rdalen/Lego_PF-Motor-SpeedController_Neopixel-version/issues/1).  
+This is fixed in [v1.1](https://github.com/rdalen/Lego_PF-Motor-SpeedController_Neopixel-version/blob/main/src/KiCad9.0/Lego%20PF-Motor%20PWM%20Speedcontroller%20-%20Neopixel%20version-v1.1.zip)
+
+### DIY PF Cable
+On AliExpress you can buy PF connectors and 4 core wire and make your own Lego PF connection cables.
+Before assembling the Input PF cable (connected to J11 in the schematic), I removed the C1 and C2 contacts from the Bottom part of the connector so that this connector can be used to connect both the battery box (via the 0V and 9V contacts in the BOTTOM part) as the Lego PF-motor as well (via the C1 and C2 contacts in the TOP part).
+![Image](https://github.com/user-attachments/assets/0d40d8c7-a8f0-4172-9ac3-674145432b49)  
+The output PF cable (connected to J13 in the schematic) is not modified (so has all its contacts).
+So the PF-motor can be connected or to the input connector (connected to the Battery box) or to the output connector.
+See [this article](https://www.philohome.com/pf/pf.htm) about the working of de LEGO Power Function cable.
+
 And this is what it looks like when assembled
 ![Image](https://github.com/user-attachments/assets/a1ad2bc3-2896-4e92-b623-1acb0c6bc26c)
 See [here](https://youtube.com/shorts/omxZtgw-2hw) how it works.  
 
-The PCB 1.0 has this [issue #1](https://github.com/rdalen/Lego_PF-Motor-SpeedController_Neopixel-version/issues/1).  
-This is fixed in [v1.1](https://github.com/rdalen/Lego_PF-Motor-SpeedController_Neopixel-version/blob/main/src/KiCad9.0/Lego%20PF-Motor%20PWM%20Speedcontroller%20-%20Neopixel%20version-v1.1.zip)
+
 ___
-The Lego Speed Controller can be powered by the Lego Battery Box or by an external 9Vdc power adapter.   
 
 Before assembling the Input PF cable (connected to J11 in the schematic), removed first the C1 and C2 contacts from the Bottom part of the connector so that this connector can be used to connect both the battery box (via the 0V and 9V contacts in the BOTTOM part) as the Lego PF-motor as well (via the C1 and C2 contacts in the TOP part).  
 ![Image](https://github.com/user-attachments/assets/0d40d8c7-a8f0-4172-9ac3-674145432b49)  
