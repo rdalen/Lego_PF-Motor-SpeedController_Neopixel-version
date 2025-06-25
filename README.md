@@ -54,7 +54,7 @@ Then;
   - Neopixel library  
   - Rotary library  
 2. Download the sketch (You can also download the the sketch from my github)  
-3. Set the proper board settings (see picture for the LGT8F328P board settings) and upload the sketch
+3. Set the proper board settings (see picture for the LGT8F328P board settings) and upload the sketch  
 ___
 For clarification;
 - The Neopixel ring indicates the output signal (similar to the big yellow button on the conventional Lego train speed regulator).  
