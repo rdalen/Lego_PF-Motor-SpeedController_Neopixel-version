@@ -64,6 +64,7 @@ For clarification;
 
 ### Yellow knob & Enclosure
 I designed a big 45mm knob in FreeCad (v1.0) for the Rotary encoder and 3d printed it in yellow  
+The design is parametric - the knob dimensions can be modified in the spreadsheet tab  
 ![Image](https://github.com/user-attachments/assets/5b739373-55db-4e97-83ee-1e48683dd2e2)  
 ___
 And I have plans to make a lasercut console for it - an update follows when this is done.  
