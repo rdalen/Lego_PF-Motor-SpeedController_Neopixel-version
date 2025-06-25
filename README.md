@@ -5,7 +5,7 @@ Inspired by the good old conventional Lego train speed regulator (2868), I made 
 
 The conventional train regulator gives a analog 0-9V output signal. In this design, the PF motor is controlled with a Pulse Width Modulation (PWM) output signal. This means that the motor speed is controlled by varying the duty cycle of a square wave signal.
 
-Earlier I made another version of a Lego speed controller based on the well known NE555 timer-IC. 
+Earlier I made [another version](https://github.com/rdalen/Lego_PF-Motor-SpeedController) of a Lego speed controller based on the well known NE555 timer-IC. 
 
 This [design](/docs/Lego%20PF%20Motor%20speed%20controller%20with%20Neopixel%20-%20Schematic.pdf) is based on an Arduino ProMini (or clone) and has a DRV8833 Motor driver module, a Rotary encoder and a 16 LED Neopixel Ring as forward/reverse speedindicator  
 ![Image](https://github.com/user-attachments/assets/53ff555d-a833-40cc-8e04-70d34815b413)
