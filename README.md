@@ -54,14 +54,7 @@ Then;
   - [Neopixel library](https://github.com/adafruit/Adafruit_NeoPixel)
   - [Rotary library](https://github.com/buxtronix/arduino/tree/master/libraries/Rotary)
 - Download the sketch (You can also download the the sketch from my github)
-- Set the proper board settings (see picture for the LGT8F328P board settings) and upload the sketch
-
-- First item
-- Second item
-- Third item
-    - Indented item
-    - Indented item
-- Fourth item
+- Set the proper board settings (see picture for the LGT8F328P board settings) and upload the sketch  
 ___
 For clarification;
 - The Neopixel ring indicates the output signal (similar to the big yellow button on the conventional Lego train speed regulator).  
@@ -69,10 +62,16 @@ For clarification;
 - Neopixel LED0 is set to blue as power-on indication. 
 - When your Rotary encoder is equipped with a push button; a short button press will increase the brightness of the LEDs (in 9 steps) and a long button press (>2sec) will reset the brightness to the default 10% and set the speed to 0 (Stop).  
 
+### Yellow knob & Enclosure
+I designed a big 45mm knob in FreeCad (v1.0) for the Rotary encoder and 3d printed it in yellow  
+![Image](https://github.com/user-attachments/assets/5b739373-55db-4e97-83ee-1e48683dd2e2)  
+___
+And I have plans to make a lasercut console for it - an update follows when this is done.  
+
 ### The Result
 And this is what it looks like when assembled
 ![Image](https://github.com/user-attachments/assets/a1ad2bc3-2896-4e92-b623-1acb0c6bc26c)
-See [here](https://youtube.com/shorts/omxZtgw-2hw) how it works.  
+See [here](https://youtube.com/shorts/p-FWXSREwLY) and [here](https://youtube.com/shorts/qJE7di6izpw) how it works.  
 
 
 
