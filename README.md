@@ -55,6 +55,7 @@ Then;
   - [Rotary library](https://github.com/buxtronix/arduino/tree/master/libraries/Rotary)
 - Download the sketch (You can also download the the sketch from my github)
 - Set the proper board settings (see picture for the LGT8F328P board settings) and upload the sketch
+
 ![Image](https://github.com/user-attachments/assets/7802f008-d822-4ecf-a5ef-d61be0eacafd)
 ___
 For clarification;
