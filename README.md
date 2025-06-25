@@ -49,13 +49,13 @@ To upload the sketch from your computer into the Arduino board you will need a F
 ![Image](https://github.com/user-attachments/assets/b041cc7b-5861-4736-9400-6b8c63063f8f)
 
 Then;  
-1 - Install the following libraries:  
+1.Install the following libraries:  
   - lgt8fx library (When you use a LGT8F328P MiniEVB Board)  
   - Neopixel library  
   - Rotary library  
-2 - Download the sketch (You can also download the the sketch from my github)  
-3 - Set the proper board settings (see picture for the LGT8F328P board settings) and upload the sketch
-
+2.Download the sketch (You can also download the the sketch from my github)  
+3.Set the proper board settings (see picture for the LGT8F328P board settings) and upload the sketch
+___
 For clarification;
 - The Neopixel ring indicates the output signal (similar to the big yellow button on the conventional Lego train speed regulator).  
 - Turning the Rotary encoder knob to the right wll increase the speed in forward direction (Green color), turning to the left will decrease the speed to 0 (LED8 is the center of the indication scale) and then increases the speed in reverse direction (Red color).  
@@ -67,7 +67,5 @@ And this is what it looks like when assembled
 ![Image](https://github.com/user-attachments/assets/a1ad2bc3-2896-4e92-b623-1acb0c6bc26c)
 See [here](https://youtube.com/shorts/omxZtgw-2hw) how it works.  
 
-
-___
 
 
