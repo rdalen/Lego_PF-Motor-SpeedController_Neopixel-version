@@ -49,12 +49,12 @@ To upload the sketch from your computer into the Arduino board you will need a F
 ![Image](https://github.com/user-attachments/assets/b041cc7b-5861-4736-9400-6b8c63063f8f)
 
 Then;  
-1. Install the following libraries:
-  - [lgt8fx library](https://github.com/dbuezas/lgt8fx?tab=readme-ov-file) (When you use a LGT8F328P MiniEVB Board)  
-  - [Neopixel library](https://github.com/adafruit/Adafruit_NeoPixel)  
-  - [Rotary library](https://github.com/buxtronix/arduino/tree/master/libraries/Rotary)  
-2. Download the sketch (You can also download the the sketch from my github)  
-3. Set the proper board settings (see picture for the LGT8F328P board settings) and upload the sketch
+- Install the following libraries:
+  - [lgt8fx library](https://github.com/dbuezas/lgt8fx?tab=readme-ov-file) (When you use a LGT8F328P MiniEVB Board)
+  - [Neopixel library](https://github.com/adafruit/Adafruit_NeoPixel)
+  - [Rotary library](https://github.com/buxtronix/arduino/tree/master/libraries/Rotary)
+- Download the sketch (You can also download the the sketch from my github)
+- Set the proper board settings (see picture for the LGT8F328P board settings) and upload the sketch
 
 - First item
 - Second item
