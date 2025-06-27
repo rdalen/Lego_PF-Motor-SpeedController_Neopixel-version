@@ -62,7 +62,12 @@ For clarification;
 - The Neopixel ring indicates the output signal (similar to the big yellow button on the conventional Lego train speed regulator).  
 - Turning the Rotary encoder knob to the right wll increase the speed in forward direction (Green color), turning to the left will decrease the speed to 0 (LED8 is the center of the indication scale) and then increases the speed in reverse direction (Red color).  
 - Neopixel LED0 is set to blue as power-on indication. 
-- When your Rotary encoder is equipped with a push button; a short button press will increase the brightness of the LEDs (in 9 steps) and a long button press (>2sec) will reset the brightness to the default 10% and set the speed to 0 (Stop).  
+- When your Rotary encoder is equipped with a push button; a short button press will increase the brightness of the LEDs (in 9 steps) and a long button press (>2sec) will reset the brightness to the default 10% and set the speed to 0 (Stop).
+
+### The Result
+And this is what it looks like when assembled
+![Image](https://github.com/user-attachments/assets/a1ad2bc3-2896-4e92-b623-1acb0c6bc26c)  
+See [here](https://youtube.com/shorts/p-FWXSREwLY) and [here](https://youtube.com/shorts/qJE7di6izpw) how it all works.  
 
 ### Yellow knob & Enclosure
 I designed a big 45mm knob in FreeCad (v1.0) for the Rotary encoder and 3d printed it in yellow  
@@ -76,10 +81,10 @@ Then I imported the svg output files into the lasercutter software (XTool) and m
 The holes in the front panel for the neopixel ring LEDs were reworked with a dremel tool to mill out the screws and smd resistors.  
 ![Image](https://github.com/user-attachments/assets/1d7884ac-6bff-472a-98e1-ed826fdb8f35)  
 
-### The Result
-And this is what it looks like when assembled
-![Image](https://github.com/user-attachments/assets/a1ad2bc3-2896-4e92-b623-1acb0c6bc26c)  
-See [here](https://youtube.com/shorts/p-FWXSREwLY) and [here](https://youtube.com/shorts/qJE7di6izpw) how it all works.  
+Assembled box  
+![Image](https://github.com/user-attachments/assets/0a84c3c6-ce53-44f5-abca-560d543f4242)
+
+
 
 
 
