@@ -73,7 +73,7 @@ The enclosure is a clever lasercut design from [this](https://boxes.hackerspace-
 Then I imported the svg output files into the lasercutter software (XTool) and made cutouts for the neopixel ring LEDs and the other things. The labels on the parts come on the inside of the box.   
 ![Image](https://github.com/user-attachments/assets/179394a9-a490-4927-b705-3efb24288067)  
 
-The frontpanel holes for the neopixel ring LEDs was reworked with a dremeltool to mill out the screws and smd resistors.  
+The holes in the front panel for the neopixel ring LEDs were reworked with a dremel tool to mill out the screws and smd resistors.  
 ![Image](https://github.com/user-attachments/assets/1d7884ac-6bff-472a-98e1-ed826fdb8f35)  
 
 ### The Result
