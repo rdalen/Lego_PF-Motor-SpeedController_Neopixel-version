@@ -81,7 +81,7 @@ Then I imported the svg output files into the lasercutter software (XTool) and m
 The holes in the front panel for the neopixel ring LEDs were reworked with a dremel tool to mill out the screws and smd resistors.  
 ![Image](https://github.com/user-attachments/assets/1d7884ac-6bff-472a-98e1-ed826fdb8f35)  
 
-The assembled box before the PCB is mounted 
+Assembling the box
 ![Image](https://github.com/user-attachments/assets/0a84c3c6-ce53-44f5-abca-560d543f4242)  
 
 ![Image](https://github.com/user-attachments/assets/55146217-d0c6-4a77-bcdf-ccc401eabf31)  
