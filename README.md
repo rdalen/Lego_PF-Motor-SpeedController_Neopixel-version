@@ -82,8 +82,17 @@ The holes in the front panel for the neopixel ring LEDs were reworked with a dre
 ![Image](https://github.com/user-attachments/assets/1d7884ac-6bff-472a-98e1-ed826fdb8f35)  
 
 The assembled box before the PCB is mounted 
-![Image](https://github.com/user-attachments/assets/0a84c3c6-ce53-44f5-abca-560d543f4242)
+![Image](https://github.com/user-attachments/assets/0a84c3c6-ce53-44f5-abca-560d543f4242)  
 
+![Image](https://github.com/user-attachments/assets/55146217-d0c6-4a77-bcdf-ccc401eabf31)  
+
+![Image](https://github.com/user-attachments/assets/d09e0f9b-fa2c-412e-b608-f1c2ab23e777)  
+
+![Image](https://github.com/user-attachments/assets/6f67fd31-339b-4825-a5c2-f45c5a3f4f19)  
+
+![Image](https://github.com/user-attachments/assets/8196ac7e-ceed-4bc5-a34d-ff0df1ac0890)  
+
+![Image](https://github.com/user-attachments/assets/cb598188-c43d-45a4-835f-8fe000e6f0dc)  
 
 
 
