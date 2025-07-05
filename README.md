@@ -95,5 +95,4 @@ Assembling the box
 ![Image](https://github.com/user-attachments/assets/cb598188-c43d-45a4-835f-8fe000e6f0dc)  
 
 
-[![Watch the video](https://img.youtube.com/vi/yDlcr6ofd3M/maxresdefault.jpg)
-
+[![Watch the video](https://img.youtube.com/vi/yDlcr6ofd3M/maxresdefault.jpg)](https://youtube.com/shorts/yDlcr6ofd3M)
