@@ -68,6 +68,7 @@ For clarification;
 And this is what it looks like when assembled
 ![Image](https://github.com/user-attachments/assets/a1ad2bc3-2896-4e92-b623-1acb0c6bc26c)  
 
+Watch the video's  
 [![Watch the video](https://img.youtube.com/vi/p-FWXSREwLY/maxresdefault.jpg)](https://youtube.com/shorts/p-FWXSREwLY)  
 [![Watch the video](https://img.youtube.com/vi/qJE7di6izpw/maxresdefault.jpg)](https://youtube.com/shorts/qJE7di6izpw)   
 
@@ -96,4 +97,5 @@ Assembling the box
 
 ![Image](https://github.com/user-attachments/assets/cb598188-c43d-45a4-835f-8fe000e6f0dc)  
 
+Watch the video  
 [![Watch the video](https://img.youtube.com/vi/yDlcr6ofd3M/maxresdefault.jpg)](https://youtube.com/shorts/yDlcr6ofd3M)
