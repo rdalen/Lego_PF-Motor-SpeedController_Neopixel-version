@@ -69,7 +69,7 @@ And this is what it looks like when assembled
 ![Image](https://github.com/user-attachments/assets/a1ad2bc3-2896-4e92-b623-1acb0c6bc26c)  
 
 [![Watch the video](https://img.youtube.com/vi/p-FWXSREwLY/maxresdefault.jpg)](https://youtube.com/shorts/p-FWXSREwLY)  
-[![Watch the video]https://img.youtube.com/vi/qJE7di6izpw/maxresdefault.jpg)]https://youtube.com/shorts/qJE7di6izpw)   
+[![Watch the video]https://img.youtube.com/vi/qJE7di6izpw/maxresdefault.jpg)](https://youtube.com/shorts/qJE7di6izpw)   
 
 ### Yellow knob & Enclosure
 I designed a big 45mm knob in FreeCad (v1.0) for the Rotary encoder and 3d printed it in yellow  
