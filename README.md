@@ -99,3 +99,6 @@ Assembling the box
 
 Watch the video  
 [![Watch the video](https://img.youtube.com/vi/yDlcr6ofd3M/maxresdefault.jpg)](https://youtube.com/shorts/yDlcr6ofd3M)
+
+### DIY Guide
+For a guide on how to build this project, check out the  tutorial at [Instructables](https://www.instructables.com/Lego-Power-Function-PF-Motor-Speed-Controller-With/).  
