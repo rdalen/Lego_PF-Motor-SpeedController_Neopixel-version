@@ -1,9 +1,31 @@
-## Lego Power Function (PF) Motor speed controller with a 16 LED Neopixel Ring and a Rotary encoder
+# Lego Power Function (PF) Motor speed controller
 
-Inspired by the good old conventional Lego train speed regulator (2868), I made this design for controlling Lego PF Motors. It is based on an Arduino ProMini (or clone) and has a DRV8833 Motor driver module, a Rotary encoder and a 16 LED Neopixel Ring as forward/reverse speedindicator.
+A DIY PWM speed controller for LEGO Power Functions motors, featuring a rotary encoder and 16-LED NeoPixel speed/direction indicator.
+Inspired by the classic Lego train speed regulator (2868)
+
 ![Image](https://github.com/user-attachments/assets/080438ce-71e4-45de-afbd-547af4345155)
 
-The conventional train regulator gives a analog 0-9V output signal. In this design, the PF motor is controlled with a Pulse Width Modulation (PWM) output signal. This means that the motor speed is controlled by varying the duty cycle of a square wave signal.
+<img width="622" height="548" alt="image" src="https://github.com/user-attachments/assets/550959de-c0a9-4576-b481-f9840adcbdf8" />
+<p align="center"><i>2868 Lego train speed regulator</i></p>
+
+---
+
+## Features
+- PWM control of LEGO Power Functions motors
+- Forward and reverse operation
+- Rotary encoder speed control
+- 16-LED NeoPixel speed/direction indicator
+- Adjustable NeoPixel brightness
+- Push-button control
+- Long-press reset to stop/default brightness
+- Compatible with Arduino Pro Mini and LGT8F328P MiniEVB
+- 9 Vdc power input
+- Open hardware and software design
+
+It is based on an Arduino ProMini (or clone) and has a DRV8833 Motor driver module, a Rotary encoder and a 16 LED Neopixel Ring as forward/reverse speedindicator.
+The conventional train regulator gives a analog 0-9V output signal. 
+In this design, the PF motor is controlled with a Pulse Width Modulation (PWM) output signal. 
+This means that the motor speed is controlled by varying the duty cycle of a square wave signal.
 
 Earlier I made [another version](https://github.com/rdalen/Lego_PF-Motor-SpeedController) of a Lego speed controller based on the well known NE555 timer-IC. 
 
