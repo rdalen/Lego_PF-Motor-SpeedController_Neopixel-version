@@ -194,7 +194,7 @@ The holes in the front panel for the NeoPixel ring LEDs were reworked with a dre
 
 ![Image](https://github.com/user-attachments/assets/cb598188-c43d-45a4-835f-8fe000e6f0dc)  
 
-Watch the video  
+Watch the video's  
 
 [![Watch the video](https://img.youtube.com/vi/yDlcr6ofd3M/maxresdefault.jpg)](https://youtube.com/shorts/yDlcr6ofd3M)
 
@@ -215,4 +215,4 @@ Watch the video's
 ---
 
 ## DIY Guide
-For a guide on how to build this project, check out the  tutorial at [Instructables](https://www.instructables.com/Lego-Power-Function-PF-Motor-Speed-Controller-With/).  
+For a guide on how to build this project, check out the tutorial at [Instructables](https://www.instructables.com/Lego-Power-Function-PF-Motor-Speed-Controller-With/).  
