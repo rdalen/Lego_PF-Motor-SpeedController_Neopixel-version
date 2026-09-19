@@ -102,7 +102,7 @@ I first tested it in a breadboard setup.
 
 ---
 
-### The PCB (v1.0)
+### The PCB
 I designed a 76x100mm PCB, which I ordered from JLCPCB. 
 
 ![Image](https://github.com/user-attachments/assets/d91549f5-1c7f-4ae1-9b96-8a0b97472900)
@@ -111,8 +111,10 @@ The pcb design takes into account the footprint of the different MCU modules, ho
 
 ![Image](https://github.com/user-attachments/assets/7c215320-499c-41ac-976d-e5720ad172ec)  
 
-The PCB 1.0 has this [issue #1](https://github.com/rdalen/Lego_PF-Motor-SpeedController_Neopixel-version/issues/1).  
-This is fixed in [v1.1](https://github.com/rdalen/Lego_PF-Motor-SpeedController_Neopixel-version/blob/main/src/KiCad9.0/Lego%20PF-Motor%20PWM%20Speedcontroller%20-%20Neopixel%20version-v1.1.zip)
+The shown PCB is v1.0 and has this [issue #1](https://github.com/rdalen/Lego_PF-Motor-SpeedController_Neopixel-version/issues/1).  
+I still have few boards available for experimenting with and sharing and is available in the KiCad folder of this repository
+
+For new projects [v1.1](https://github.com/rdalen/Lego_PF-Motor-SpeedController_Neopixel-version/blob/main/src/KiCad9.0/Lego%20PF-Motor%20PWM%20Speedcontroller%20-%20Neopixel%20version-v1.1.zip) v1.1 is recommended
 
 ---
 
