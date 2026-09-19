@@ -50,18 +50,32 @@ This means that the motor speed is controlled by varying the duty cycle of a squ
 
 Earlier I made [another version](https://github.com/rdalen/Lego_PF-Motor-SpeedController) of a Lego speed controller based on the well known NE555 timer-IC. 
 
+---
+
+## Hardware
+
+- 1× PCB
+- 1× MCU Module Arduino Pro Mini or LGT8F328P MiniEVB
+- 1× DRV8833 motor driver module
+- 1× 16-LED NeoPixel ring
+- 1× EC11 rotary encoder with push button
+- LEGO PF connectors
+- 4-core cable
+- 9Vdc power supply / LEGO 8881 battery box
+- enclosure material
+- 3D-printed knob
+
+Here is the PCB BOM list;
+![Image](https://github.com/user-attachments/assets/06701ed0-27e3-411e-9106-8a072cb2fcc8)
+
+### MCU Module
+
 For the MCU modules both the Arduino ProMini and the [LGT8F328P LQFP32 MiniEVB](https://wolles-elektronikkiste.de/en/minievb-boards-an-overview) (Pro Mini Style) can be used or even the [LGT8F328P SSOP20 MiniEVB](https://wolles-elektronikkiste.de/en/minievb-boards-an-overview) (pseudo Pro Mini Style).  
 
 ![Image](https://github.com/user-attachments/assets/0f129618-70d6-4ebd-975c-3ff58fa520ff)  
 
 You can buy the LGT8F328P MiniEVB modules on AliExpress very cheap.  
 I used the 5V version, because not all types of Neopixels are compatible with 3V3.  
-Furthermore, I use, among other things;  
-- A DRV8833 Motor driver module  
-- A Neopixel ring with 16 LEDs  
-- An EC11 Rotary encoder with push button
-  
-![Image](https://github.com/user-attachments/assets/06701ed0-27e3-411e-9106-8a072cb2fcc8)
 
 ---
 
@@ -93,7 +107,7 @@ I designed a 76x100mm PCB, which I ordered from JLCPCB.
 
 ![Image](https://github.com/user-attachments/assets/d91549f5-1c7f-4ae1-9b96-8a0b97472900)
 
-The pcb design takes into account the footprint of the different MCU modules, however only 1 of the MCU modules needs to be placed.  
+The pcb design takes into account the footprint of the different MCU modules, however **only 1 of the MCU modules needs to be placed**.  
 
 ![Image](https://github.com/user-attachments/assets/7c215320-499c-41ac-976d-e5720ad172ec)  
 
