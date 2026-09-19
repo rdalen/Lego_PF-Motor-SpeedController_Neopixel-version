@@ -1,4 +1,4 @@
-# Lego Power Function (PF) Motor speed controller
+# LEGO Power Function (PF) Motor speed controller
 
 A DIY PWM speed controller for LEGO Power Functions motors, featuring a rotary encoder and 16-LED NeoPixel speed/direction indicator.
 Inspired by the classic Lego train speed regulator (2868)
