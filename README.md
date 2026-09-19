@@ -22,6 +22,23 @@ Inspired by the classic Lego train speed regulator (2868)
 - 9 Vdc power input
 - Open hardware and software design
 
+## Specifications
+
+| Specification  | Value                        |
+| -------------- | ---------------------------- |
+| Supply voltage | 9Vdc                         |
+| Output voltage | 0 - 9Vdc                     |
+| Motor control  | PWM                          |
+| Motor driver   | DRV8833                      |
+| MCU            | ATmega328P / LGT8F328P       |
+| NeoPixel ring  | 16 LEDs                      |
+| Rotary encoder | EC11                         |
+| PCB size       | 76 × 100 mm                  |
+| PCB version    | v1.1                         |
+| Motor outputs  | 1                            |
+| Control        | Rotary encoder + push button |
+
+
 It is based on an Arduino ProMini (or clone) and has a DRV8833 Motor driver module, a Rotary encoder and a 16 LED Neopixel Ring as forward/reverse speedindicator.
 The conventional train regulator gives a analog 0-9V output signal. 
 In this design, the PF motor is controlled with a Pulse Width Modulation (PWM) output signal. 
