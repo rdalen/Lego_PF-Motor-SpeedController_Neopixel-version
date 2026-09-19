@@ -29,8 +29,7 @@ Inspired by the classic Lego train speed regulator (2868)
 | Specification  | Value                        |
 | -------------- | ---------------------------- |
 | Supply voltage | 9Vdc                         |
-| Output voltage | 0 - 9Vdc                     |
-| Motor control  | PWM                          |
+| Output voltage | PWM, 0 - 9V                  |
 | Motor driver   | DRV8833                      |
 | MCU            | ATmega328P / LGT8F328P       |
 | NeoPixel ring  | 16 LEDs                      |
@@ -43,8 +42,8 @@ Inspired by the classic Lego train speed regulator (2868)
 ---
 
 ## Description
-It is based on an Arduino ProMini (or clone) and has a DRV8833 Motor driver module, a Rotary encoder and a 16 LED Neopixel Ring as forward/reverse speedindicator.
-The conventional train regulator gives a analog 0-9V output signal. 
+It is based on an Arduino ProMini (or clone) and has a DRV8833 Motor driver module, a Rotary encoder and a 16 LED Neopixel Ring as forward/reverse speed indicator.
+The conventional train regulator gives an analog 0-9V output signal. 
 In this design, the PF motor is controlled with a Pulse Width Modulation (PWM) output signal. 
 This means that the motor speed is controlled by varying the duty cycle of a square wave signal.
 
@@ -66,7 +65,10 @@ Earlier I made [another version](https://github.com/rdalen/Lego_PF-Motor-SpeedCo
 - 3D-printed knob
 
 Here is the PCB BOM list;
-![Image](https://github.com/user-attachments/assets/06701ed0-27e3-411e-9106-8a072cb2fcc8)
+
+<img width="50%" alt="image" src="https://github.com/user-attachments/assets/6531b784-2273-4361-8b83-fbcd4f52db8a" />
+
+---
 
 ### MCU Module
 
@@ -93,7 +95,7 @@ I first tested it in a breadboard setup.
 1. Order/assemble the PCB
 2. Install the MCU and peripheral modules
 3. Modify the PF Cable J11
-4. Connect the PF input/output
+4. Connect the PF input and motor output
 5. Upload the firmware
 6. Build the enclosure
 7. Install the PCB, encoder and NeoPixel ring
@@ -111,10 +113,10 @@ The pcb design takes into account the footprint of the different MCU modules, ho
 
 ![Image](https://github.com/user-attachments/assets/7c215320-499c-41ac-976d-e5720ad172ec)  
 
-The shown PCB is v1.0 and has this [issue #1](https://github.com/rdalen/Lego_PF-Motor-SpeedController_Neopixel-version/issues/1).  
-I still have few boards available for experimenting with and sharing and is available in the KiCad folder of this repository
+PCB v1.0 is shown in the photographs below. It has the issue described in [issue #1](https://github.com/rdalen/Lego_PF-Motor-SpeedController_Neopixel-version/issues/1).  
+I still have a few v1.0 boards available for experimenting and sharing. The v1.0 PCB files are also available in the KiCad folder of this repository.
 
-For new projects [v1.1](https://github.com/rdalen/Lego_PF-Motor-SpeedController_Neopixel-version/blob/main/src/KiCad9.0/Lego%20PF-Motor%20PWM%20Speedcontroller%20-%20Neopixel%20version-v1.1.zip) v1.1 is recommended
+PCB [v1.1](https://github.com/rdalen/Lego_PF-Motor-SpeedController_Neopixel-version/blob/main/src/KiCad9.0/Lego%20PF-Motor%20PWM%20Speedcontroller%20-%20Neopixel%20version-v1.1.zip) fixes this issue and is the recommended version for new builds.
 
 ---
 
@@ -128,7 +130,7 @@ Before assembling the Input PF cable (connected to J11 in the schematic), I remo
 The output PF cable (connected to J13 in the schematic) is not modified (so has all its contacts).
 So the PF-motor can be connected or to the input connector (connected to the Battery box) or to the output connector.  
 
-See [this article](https://www.philohome.com/pf/pf.htm) about the working of de LEGO Power Function cable.
+See [this article](https://www.philohome.com/pf/pf.htm) about the working of the LEGO Power Function cable.
 
 ---
 
@@ -141,17 +143,17 @@ To upload the sketch from your computer into the Arduino board you will need a F
 Then;  
 - Install the following libraries:
   - [lgt8fx library](https://github.com/dbuezas/lgt8fx?tab=readme-ov-file) (When you use a LGT8F328P MiniEVB Board)
-  - [Neopixel library](https://github.com/adafruit/Adafruit_NeoPixel)
+  - [NeoPixel library](https://github.com/adafruit/Adafruit_NeoPixel)
   - [Rotary library](https://github.com/buxtronix/arduino/tree/master/libraries/Rotary)
-- Download the sketch (You can also download the the sketch from my github)
+- Download the sketch (You can also download the sketch from my github)
 - Set the proper board settings (see picture below for the LGT8F328P board settings) and upload the sketch
 
 ![Image](https://github.com/user-attachments/assets/7802f008-d822-4ecf-a5ef-d61be0eacafd)
 
 For clarification;
-- The Neopixel ring indicates the output signal (similar to the big yellow button on the conventional Lego train speed regulator).  
-- Turning the Rotary encoder knob to the right wll increase the speed in forward direction (Green color), turning to the left will decrease the speed to 0 (LED8 is the center of the indication scale) and then increases the speed in reverse direction (Red color).  
-- Neopixel LED0 is set to blue as power-on indication. 
+- The NeoPixel ring indicates the output signal (similar to the big yellow button on the conventional LEGO train speed regulator).  
+- Turning the Rotary encoder knob to the right will increase the speed in forward direction (Green color), turning to the left will decrease the speed to 0 (LED8 is the center of the indication scale) and then increases the speed in reverse direction (Red color).  
+- NeoPixel LED0 is set to blue as power-on indication. 
 - When your Rotary encoder is equipped with a push button; a short button press will increase the brightness of the LEDs (in 9 steps) and a long button press (>2sec) will reset the brightness to the default 10% and set the speed to 0 (Stop).
 
 ---
@@ -168,11 +170,11 @@ The design is parametric - the knob dimensions can be modified in the spreadshee
 ### Enclosure
 
 The enclosure is a clever lasercut design from [this](https://boxes.hackerspace-bamberg.de/?language=en) site with lots of boxes. It is based on [this console](https://boxes.hackerspace-bamberg.de/Console2?FingerJoint_style=rectangular&FingerJoint_surroundingspaces=0.5&FingerJoint_bottom_lip=0.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&Stackable_angle=60&Stackable_bottom_stabilizers=0.0&Stackable_height=2.0&Stackable_holedistance=1.0&Stackable_width=4.0&x=120&y=100&h=70&bottom_edge=s&outside=0&front_height=20&angle=35&removable_backwall=0&removable_backwall=1&removable_panel=0&removable_panel=1&glued_panel=0&glued_panel=1&thickness=3.0&format=svg&tabs=0.0&qr_code=0&debug=0&labels=0&labels=1&reference=100.0&inner_corners=loop&burn=0.1&language=en&render=0) and has a [small box](https://boxes.hackerspace-bamberg.de/ABox?FingerJoint_style=rectangular&FingerJoint_surroundingspaces=2.0&FingerJoint_bottom_lip=0.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&Lid_handle=none&Lid_style=none&Lid_handle_height=8.0&Lid_height=4.0&Lid_play=0.1&x=88.5&y=33&h=35&outside=0&bottom_edge=h&thickness=3.0&format=svg&tabs=0.0&qr_code=0&debug=0&labels=0&labels=1&reference=100.0&inner_corners=loop&burn=0.1&language=en&render=0) on the back for the Battery box.  
-Then I imported the svg output files into the lasercutter software (XTool) and made cutouts for the neopixel ring LEDs and the other things. The labels on the parts come on the inside of the box.   
+Then I imported the svg output files into the lasercutter software (XTool) and made cutouts for the NeoPixel ring LEDs and the other things. The labels on the parts come on the inside of the box.   
 
 ![Image](https://github.com/user-attachments/assets/179394a9-a490-4927-b705-3efb24288067)  
 
-The holes in the front panel for the neopixel ring LEDs were reworked with a dremel tool to mill out the screws and smd resistors.  
+The holes in the front panel for the NeoPixel ring LEDs were reworked with a dremel tool to mill out the screws and smd resistors.  
 
 ![Image](https://github.com/user-attachments/assets/1d7884ac-6bff-472a-98e1-ed826fdb8f35)  
 
