@@ -160,7 +160,7 @@ For clarification;
 
 ### Yellow knob
 
-I designed a big 45mm knob in FreeCad (v1.0) for the Rotary encoder and 3d printed it in yellow  
+I designed a big 45mm knob in FreeCAD (v1.0) for the Rotary encoder and 3d-printed it in yellow  
 The design is parametric - the knob dimensions can be modified in the spreadsheet tab  
 
 ![Image](https://github.com/user-attachments/assets/5b739373-55db-4e97-83ee-1e48683dd2e2)  
@@ -169,12 +169,12 @@ The design is parametric - the knob dimensions can be modified in the spreadshee
 
 ### Enclosure
 
-The enclosure is a clever lasercut design from [this](https://boxes.hackerspace-bamberg.de/?language=en) site with lots of boxes. It is based on [this console](https://boxes.hackerspace-bamberg.de/Console2?FingerJoint_style=rectangular&FingerJoint_surroundingspaces=0.5&FingerJoint_bottom_lip=0.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&Stackable_angle=60&Stackable_bottom_stabilizers=0.0&Stackable_height=2.0&Stackable_holedistance=1.0&Stackable_width=4.0&x=120&y=100&h=70&bottom_edge=s&outside=0&front_height=20&angle=35&removable_backwall=0&removable_backwall=1&removable_panel=0&removable_panel=1&glued_panel=0&glued_panel=1&thickness=3.0&format=svg&tabs=0.0&qr_code=0&debug=0&labels=0&labels=1&reference=100.0&inner_corners=loop&burn=0.1&language=en&render=0) and has a [small box](https://boxes.hackerspace-bamberg.de/ABox?FingerJoint_style=rectangular&FingerJoint_surroundingspaces=2.0&FingerJoint_bottom_lip=0.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&Lid_handle=none&Lid_style=none&Lid_handle_height=8.0&Lid_height=4.0&Lid_play=0.1&x=88.5&y=33&h=35&outside=0&bottom_edge=h&thickness=3.0&format=svg&tabs=0.0&qr_code=0&debug=0&labels=0&labels=1&reference=100.0&inner_corners=loop&burn=0.1&language=en&render=0) on the back for the Battery box.  
-Then I imported the svg output files into the lasercutter software (XTool) and made cutouts for the NeoPixel ring LEDs and the other things. The labels on the parts come on the inside of the box.   
+The enclosure is a clever laser-cut design from [this](https://boxes.hackerspace-bamberg.de/?language=en) site with lots of boxes. It is based on [this console](https://boxes.hackerspace-bamberg.de/Console2?FingerJoint_style=rectangular&FingerJoint_surroundingspaces=0.5&FingerJoint_bottom_lip=0.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&Stackable_angle=60&Stackable_bottom_stabilizers=0.0&Stackable_height=2.0&Stackable_holedistance=1.0&Stackable_width=4.0&x=120&y=100&h=70&bottom_edge=s&outside=0&front_height=20&angle=35&removable_backwall=0&removable_backwall=1&removable_panel=0&removable_panel=1&glued_panel=0&glued_panel=1&thickness=3.0&format=svg&tabs=0.0&qr_code=0&debug=0&labels=0&labels=1&reference=100.0&inner_corners=loop&burn=0.1&language=en&render=0) and has a [small box](https://boxes.hackerspace-bamberg.de/ABox?FingerJoint_style=rectangular&FingerJoint_surroundingspaces=2.0&FingerJoint_bottom_lip=0.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&Lid_handle=none&Lid_style=none&Lid_handle_height=8.0&Lid_height=4.0&Lid_play=0.1&x=88.5&y=33&h=35&outside=0&bottom_edge=h&thickness=3.0&format=svg&tabs=0.0&qr_code=0&debug=0&labels=0&labels=1&reference=100.0&inner_corners=loop&burn=0.1&language=en&render=0) on the back for the Battery box.  
+Then I imported the SVG output files into the lasercutter software (XTool) and made cutouts for the NeoPixel ring LEDs and the other things. The labels on the parts come on the inside of the box.   
 
 ![Image](https://github.com/user-attachments/assets/179394a9-a490-4927-b705-3efb24288067)  
 
-The holes in the front panel for the NeoPixel ring LEDs were reworked with a dremel tool to mill out the screws and smd resistors.  
+The holes in the front panel for the NeoPixel ring LEDs were reworked with a dremel tool to mill out the screws and SMD resistors.  
 
 ![Image](https://github.com/user-attachments/assets/1d7884ac-6bff-472a-98e1-ed826fdb8f35)  
 
