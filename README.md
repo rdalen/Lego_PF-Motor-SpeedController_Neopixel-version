@@ -161,7 +161,7 @@ For clarification;
 ### Yellow knob
 
 I designed a big 45mm knob in FreeCAD (v1.0) for the Rotary encoder and 3d-printed it in yellow  
-The design is parametric - the knob dimensions can be modified in the spreadsheet tab  
+The design is parametric, so the knob dimensions can be modified in the spreadsheet tab 
 
 ![Image](https://github.com/user-attachments/assets/5b739373-55db-4e97-83ee-1e48683dd2e2)  
 
